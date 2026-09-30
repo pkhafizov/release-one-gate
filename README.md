@@ -11,6 +11,12 @@ synthetic support message. The typed answer is stored in LangGraph state, a plai
 Python function picks the branch, and the branch returns a fixed acknowledgement.
 LangSmith traces the run. There is no generative LLM in the flow.
 
+## Article
+
+This project accompanies the Medium article
+[What evidence should an AI release approver inspect?](https://medium.com/@pkhafizov/what-evidence-should-an-ai-release-approver-inspect-24e2a9bbb371)
+by Pavel Khafizov. This repository is the small runnable example behind it.
+
 ## Setup
 
 Requires Python 3.11+ and [uv](https://docs.astral.sh/uv/).
