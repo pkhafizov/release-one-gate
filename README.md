@@ -29,8 +29,6 @@ Fill in `.env`:
 | `LANGSMITH_API_KEY` | When tracing is on |
 | `LANGSMITH_PROJECT` | When tracing is on (`gate-article`) |
 
-`.env` is loaded at startup. Variables already set in the shell take priority over
-`.env`, and missing ones are reported by name.
 
 ## Run
 
